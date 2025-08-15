@@ -1,0 +1,60 @@
+{
+  "video_info": {
+    "duration": 59,
+    "filename": "sample60s_video-1.mp4"
+  },
+  "processing_summary": {
+    "total_events_detected": 2,
+    "processing_timestamp": "2024-05-13T18:45:21Z",
+    "event_types_found": [
+      "assist",
+      "2pt_shot"
+    ]
+  },
+  "game_statistics": {
+    "total_2pt_attempts": 1,
+    "total_2pt_made": 1,
+    "total_3pt_attempts": 0,
+    "total_3pt_made": 0,
+    "total_assists": 1,
+    "total_steals": 0,
+    "total_blocks": 0
+  },
+  "shooting_analysis": {
+    "2pt_shooting": {
+      "percentage": 100.0,
+      "made": 1,
+      "attempts": 1
+    },
+    "3pt_shooting": {
+      "percentage": 0.0,
+      "made": 0,
+      "attempts": 0
+    },
+    "overall_fg_percentage": 100.0
+  },
+  "defensive_stats": {
+    "steals": 0,
+    "blocks": 0,
+    "total_defensive_actions": 0
+  },
+  "playmaking": {
+    "assists": 1
+  },
+  "detailed_events": [
+    {
+      "event_type": "assist",
+      "timestamp": 0.5,
+      "description": "Player in black jersey and shorts passes from near the top of the key to a cutting teammate in a green jersey for a layup.",
+      "outcome": null,
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 1.0,
+      "description": "Player in green jersey with a white undershirt makes a contested layup in the paint after receiving a pass.",
+      "outcome": "made",
+      "location": "In the paint"
+    }
+  ]
+}

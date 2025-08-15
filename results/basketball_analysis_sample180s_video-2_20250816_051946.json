@@ -1,0 +1,173 @@
+{
+  "video_info": {
+    "duration": 179.914,
+    "filename": "sample180s_video-2.mp4"
+  },
+  "processing_summary": {
+    "total_events_detected": 18,
+    "processing_timestamp": "2024-07-25T14:30:00Z",
+    "event_types_found": [
+      "2pt_shot",
+      "3pt_shot",
+      "assist"
+    ]
+  },
+  "game_statistics": {
+    "total_2pt_attempts": 7,
+    "total_2pt_made": 6,
+    "total_3pt_attempts": 6,
+    "total_3pt_made": 5,
+    "total_assists": 5,
+    "total_steals": 0,
+    "total_blocks": 0
+  },
+  "shooting_analysis": {
+    "2pt_shooting": {
+      "percentage": 85.71,
+      "made": 6,
+      "attempts": 7
+    },
+    "3pt_shooting": {
+      "percentage": 83.33,
+      "made": 5,
+      "attempts": 6
+    },
+    "overall_fg_percentage": 84.62
+  },
+  "defensive_stats": {
+    "steals": 0,
+    "blocks": 0,
+    "total_defensive_actions": 0
+  },
+  "playmaking": {
+    "assists": 5
+  },
+  "detailed_events": [
+    {
+      "event_type": "assist",
+      "timestamp": 1.8,
+      "description": "A player in a green jersey with number 4 passes from the top of the key to a cutting teammate in a red jersey for a layup.",
+      "outcome": null,
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 2.9,
+      "description": "A player in a red jersey drives from the left side and makes a contested layup.",
+      "outcome": "made",
+      "location": "In the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 23.9,
+      "description": "A player in a red jersey makes a pull-up jump shot from the right elbow.",
+      "outcome": "made",
+      "location": "Right elbow"
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 52.2,
+      "description": "A player in a black jersey passes the ball from inside the paint to a teammate on the left wing for a three-point shot.",
+      "outcome": null,
+      "location": "In the paint"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 52.8,
+      "description": "A player in a red jersey makes a catch-and-shoot three-pointer from the left wing.",
+      "outcome": "made",
+      "location": "Left wing"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 69.9,
+      "description": "A player in a green jersey makes a jump shot from the top of the key.",
+      "outcome": "made",
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 77.3,
+      "description": "A player in a green jersey with number 8 makes a pull-up three-pointer from the top of the key.",
+      "outcome": "made",
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 78.0,
+      "description": "A player in a red jersey makes a jump shot from the right elbow.",
+      "outcome": "made",
+      "location": "Right elbow"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 81.2,
+      "description": "A player in a red jersey drives to the basket and misses a contested layup.",
+      "outcome": "miss",
+      "location": "Right side of the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 107.1,
+      "description": "A player in a red jersey makes a pull-up jump shot from the free-throw line.",
+      "outcome": "made",
+      "location": "Free-throw line"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 119.5,
+      "description": "A player wearing a black shirt and red shorts misses a three-point attempt from the right wing.",
+      "outcome": "miss",
+      "location": "Right wing"
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 124.6,
+      "description": "A player in a black jersey drives into the paint and kicks the ball out to a teammate for a three-point shot.",
+      "outcome": null,
+      "location": "Right side of the paint"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 125.1,
+      "description": "A player in a red jersey makes a catch-and-shoot three-pointer from the top of the key.",
+      "outcome": "made",
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 139.4,
+      "description": "A player in a black jersey passes from the top of the key to a teammate in the left corner for a three-point shot.",
+      "outcome": null,
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 139.8,
+      "description": "A player in a red jersey makes a catch-and-shoot three-pointer from the left corner.",
+      "outcome": "made",
+      "location": "Left corner"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 168.2,
+      "description": "A player in a red jersey makes a pull-up jump shot from the left elbow.",
+      "outcome": "made",
+      "location": "Left elbow"
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 178.8,
+      "description": "A player wearing a black shirt passes the ball to a teammate on the left wing for a three-point shot.",
+      "outcome": null,
+      "location": "Top of the key"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 179.3,
+      "description": "A player in a red jersey makes a catch-and-shoot three-pointer from the left wing.",
+      "outcome": "made",
+      "location": "Left wing"
+    }
+  ]
+}
