@@ -1,0 +1,146 @@
+{
+  "video_info": {
+    "duration": 180.0,
+    "filename": "sample180s_video-1.mp4"
+  },
+  "processing_summary": {
+    "total_events_detected": 14,
+    "processing_timestamp": "2024-05-18T10:30:00Z",
+    "event_types_found": [
+      "2pt_shot",
+      "3pt_shot",
+      "rebound",
+      "block"
+    ]
+  },
+  "game_statistics": {
+    "total_2pt_attempts": 9,
+    "total_2pt_made": 5,
+    "total_3pt_attempts": 2,
+    "total_3pt_made": 0,
+    "total_assists": 0,
+    "total_steals": 0,
+    "total_blocks": 1
+  },
+  "shooting_analysis": {
+    "2pt_shooting": {
+      "percentage": 55.56,
+      "made": 5,
+      "attempts": 9
+    },
+    "3pt_shooting": {
+      "percentage": 0.0,
+      "made": 0,
+      "attempts": 2
+    },
+    "overall_fg_percentage": 45.45
+  },
+  "defensive_stats": {
+    "steals": 0,
+    "blocks": 1,
+    "total_defensive_actions": 1
+  },
+  "playmaking": {
+    "assists": 0
+  },
+  "detailed_events": [
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 23.8,
+      "description": "Player in green #4 drives baseline from the right and makes a contested layup.",
+      "outcome": "made",
+      "location": "Right side of the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 53.0,
+      "description": "Player in red drives from the left wing and misses a layup attempt in traffic.",
+      "outcome": "miss",
+      "location": "Left side of the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 70.0,
+      "description": "Player in green #4 drives down the middle of the paint and scores a layup.",
+      "outcome": "made",
+      "location": "Center of the paint"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 76.5,
+      "description": "Player in green #5 attempts a three-point shot from the left wing.",
+      "outcome": "miss",
+      "location": "Left wing"
+    },
+    {
+      "event_type": "rebound",
+      "timestamp": 77.8,
+      "description": "Player in green #0 secures the offensive rebound following the missed 3-point shot.",
+      "outcome": null,
+      "location": "Left side of the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 78.5,
+      "description": "Player in green #0 scores a putback layup after getting the offensive rebound.",
+      "outcome": "made",
+      "location": "Left side of the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 100.2,
+      "description": "Player in red #0 attempts a turnaround jumper from inside the paint which is blocked.",
+      "outcome": "miss",
+      "location": "Center of the paint"
+    },
+    {
+      "event_type": "block",
+      "timestamp": 100.2,
+      "description": "Player in green blocks the shot attempt by the player in red #0.",
+      "outcome": null,
+      "location": "Center of the paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 121.5,
+      "description": "Player in green attempts a contested layup from the right side of the paint and misses.",
+      "outcome": "miss",
+      "location": "Right side of the paint"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 125.2,
+      "description": "Player in green misses a three-point shot from the left corner.",
+      "outcome": "miss",
+      "location": "Left corner"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 140.5,
+      "description": "Player in red makes a pull-up jumper from near the free-throw line.",
+      "outcome": "made",
+      "location": "Free-throw line area"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 165.0,
+      "description": "Player in green drives from the left wing into the paint and misses a contested layup.",
+      "outcome": "miss",
+      "location": "Left side of the paint"
+    },
+    {
+      "event_type": "rebound",
+      "timestamp": 167.5,
+      "description": "Player in red secures the defensive rebound after the missed layup.",
+      "outcome": null,
+      "location": "Paint"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 179.0,
+      "description": "Player in green #8 drives down the center of the lane and scores a layup.",
+      "outcome": "made",
+      "location": "Center of the paint"
+    }
+  ]
+}

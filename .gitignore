@@ -2,4 +2,3 @@
 .ipynb_checkpoints/
 
 # Results folder - keep folder structure but ignore JSON files
-results/*.json
