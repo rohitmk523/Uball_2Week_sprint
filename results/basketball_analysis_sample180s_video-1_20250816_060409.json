@@ -1,0 +1,157 @@
+{
+  "video_info": {
+    "duration": 179,
+    "filename": "sample180s_video-1.mp4"
+  },
+  "processing_summary": {
+    "total_events_detected": 12,
+    "processing_timestamp": "2024-05-21T15:30:00Z",
+    "event_types_found": [
+      "2pt_shot",
+      "3pt_shot",
+      "assist",
+      "block"
+    ],
+    "validation_notes": "Equal priority given to all basketball events - assists, steals, blocks, shots"
+  },
+  "game_statistics": {
+    "total_2pt_attempts": 7,
+    "total_2pt_made": 4,
+    "total_3pt_attempts": 1,
+    "total_3pt_made": 1,
+    "total_assists": 3,
+    "total_steals": 0,
+    "total_blocks": 1
+  },
+  "shooting_analysis": {
+    "2pt_shooting": {
+      "percentage": 57.14,
+      "made": 4,
+      "attempts": 7
+    },
+    "3pt_shooting": {
+      "percentage": 100.0,
+      "made": 1,
+      "attempts": 1
+    },
+    "overall_fg_percentage": 62.5
+  },
+  "defensive_stats": {
+    "steals": 0,
+    "blocks": 1,
+    "total_defensive_actions": 1
+  },
+  "playmaking": {
+    "assists": 3
+  },
+  "detailed_events": [
+    {
+      "event_type": "assist",
+      "timestamp": 8,
+      "description": "Player in red jersey #2 drives and passes to teammate in red jersey #5 on the right wing, who immediately scores.",
+      "outcome": null,
+      "location": "Right Wing",
+      "players_involved": "Red #2 (passer), Red #5 (scorer)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 8,
+      "description": "Player in red jersey #5 makes a 2-point shot from the right wing towards the far basket after a pass.",
+      "outcome": "made",
+      "location": "Right Wing",
+      "players_involved": "Red #5 (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 48,
+      "description": "Player in light green jersey #13 attempts a 2-point shot from the top of the key that misses off the rim.",
+      "outcome": "miss",
+      "location": "Top of the Key",
+      "players_involved": "Light Green #13 (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 57,
+      "description": "Player in red jersey #5 makes a short jump shot from the paint.",
+      "outcome": "made",
+      "location": "Paint",
+      "players_involved": "Red #5 (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 58,
+      "description": "Player in a white jersey attempts a layup that misses off the backboard.",
+      "outcome": "miss",
+      "location": "Paint",
+      "players_involved": "Player in white jersey (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 112,
+      "description": "Player in green jersey passes to a cutting teammate in red jersey #2 who scores an immediate layup.",
+      "outcome": null,
+      "location": "Paint",
+      "players_involved": "Player in green jersey (passer), Red #2 (scorer)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 112,
+      "description": "Player in red jersey #2 scores a layup after receiving a pass while cutting to the basket.",
+      "outcome": "made",
+      "location": "Paint",
+      "players_involved": "Red #2 (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 120,
+      "description": "Player in red and white jersey #0 scores a short jump shot from close range.",
+      "outcome": "made",
+      "location": "Paint",
+      "players_involved": "Red/White #0 (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "block",
+      "timestamp": 140,
+      "description": "Player in red jersey #5 jumps and blocks the 2-point shot attempt from the player in the white jersey #1.",
+      "outcome": null,
+      "location": "Paint",
+      "players_involved": "Red #5 (blocker), White #1 (shooter)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 140,
+      "description": "Player in white jersey #1 attempts a 2-point shot which is blocked by a defender.",
+      "outcome": "miss",
+      "location": "Paint",
+      "players_involved": "White #1 (shooter), Red #5 (blocker)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 173,
+      "description": "Player in black jersey passes to teammate in red jersey #33 on the left wing for an immediate made 3-pointer.",
+      "outcome": null,
+      "location": "Left Wing",
+      "players_involved": "Player in black jersey (passer), Red #33 (scorer)",
+      "basket_target": "far_basket"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 173,
+      "description": "Player in red jersey #33 makes a 3-point shot from the left wing after catching a pass.",
+      "outcome": "made",
+      "location": "Left Wing",
+      "players_involved": "Red #33 (shooter)",
+      "basket_target": "far_basket"
+    }
+  ]
+}
